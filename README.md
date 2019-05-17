@@ -2,7 +2,7 @@
                      
 
 # 💼 CuraNu-APP 💼 
-## [ 🎬 📽 Check out the deployed version here! 🎬 📽](https://gallant-brattain-9ebaeb.netlify.com/)
+## [ 🔮 ✨ Check out the deployed version here! ✨ 🔮](https://gallant-brattain-9ebaeb.netlify.com/)
 ## What this project is about
 This is my own attempt at the Global Gaming's Frontend challenge. I was expected to develop a well-structured movie library application (such as Netflix and Amazon) using any design I want. The app should at minimum support the following primary functions:
 - **List a number of movies**
