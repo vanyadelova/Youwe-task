@@ -16,7 +16,7 @@ class AdminNavbarLinks extends Component {
         <Nav>
           <NavItem eventKey={1} href="#">
             <i className="fa fa-dashboard" />
-            <p className="hidden-lg hidden-md">Dashboard</p>
+            <p className="hidden-lg hidden-md">CuraNu</p>
           </NavItem>
           <NavDropdown
             eventKey={2}
@@ -44,13 +44,13 @@ class AdminNavbarLinks extends Component {
             title="Dropdown"
             id="basic-nav-dropdown-right"
           >
-            <MenuItem eventKey={2.1}>Action</MenuItem>
-            <MenuItem eventKey={2.2}>Another action</MenuItem>
-            <MenuItem eventKey={2.3}>Something</MenuItem>
-            <MenuItem eventKey={2.4}>Another action</MenuItem>
-            <MenuItem eventKey={2.5}>Something</MenuItem>
+            <MenuItem eventKey={2.1}>Groepen</MenuItem>
+            <MenuItem eventKey={2.2}>FAQ</MenuItem>
+            <MenuItem eventKey={2.3}>Smoelenboek</MenuItem>
+            <MenuItem eventKey={2.4}>Microblog</MenuItem>
+            <MenuItem eventKey={2.5}>Over ons</MenuItem>
             <MenuItem divider />
-            <MenuItem eventKey={2.5}>Separated link</MenuItem>
+            <MenuItem eventKey={2.5}>Contact</MenuItem>
           </NavDropdown>
           <NavItem eventKey={3} href="#">
             Log out

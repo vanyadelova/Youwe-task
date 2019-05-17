@@ -37,7 +37,7 @@ class Dashboard extends Component {
             <Col lg={3} sm={6}>
               <StatsCard
                 bigIcon={<i className="pe-7s-server text-warning" />}
-                statsText="Capacity"
+                statsText="Youforce"
                 statsValue="105GB"
                 statsIcon={<i className="fa fa-refresh" />}
                 statsIconText="Updated now"
@@ -46,7 +46,7 @@ class Dashboard extends Component {
             <Col lg={3} sm={6}>
               <StatsCard
                 bigIcon={<i className="pe-7s-wallet text-success" />}
-                statsText="Revenue"
+                statsText="Topdesk"
                 statsValue="$1,345"
                 statsIcon={<i className="fa fa-calendar-o" />}
                 statsIconText="Last day"
@@ -55,7 +55,7 @@ class Dashboard extends Component {
             <Col lg={3} sm={6}>
               <StatsCard
                 bigIcon={<i className="pe-7s-graph1 text-danger" />}
-                statsText="Errors"
+                statsText="MIP-meldingen"
                 statsValue="23"
                 statsIcon={<i className="fa fa-clock-o" />}
                 statsIconText="In the last hour"
@@ -76,7 +76,7 @@ class Dashboard extends Component {
               <Card
                 statsIcon="fa fa-history"
                 id="chartHours"
-                title="Users Behavior"
+                title="KWALITEITSHANDBOEK"
                 category="24 Hours performance"
                 stats="Updated 3 minutes ago"
                 content={
@@ -141,7 +141,7 @@ class Dashboard extends Component {
 
             <Col md={6}>
               <Card
-                title="Tasks"
+                title="EVENEMENTEN"
                 category="Backend development"
                 stats="Updated 3 minutes ago"
                 statsIcon="fa fa-history"
