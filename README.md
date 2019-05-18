@@ -11,7 +11,7 @@ This is my own attempt at the Global Gaming's Frontend challenge. I was expected
 - **Navigate to a specific movie as to preview further details**
 - **Should be interactive to numerous resolutions**
 
-It is a SPA(Single Page Application) app made with React.
+It is a SPA(Single Page Application) app made with React. It is built on top of React Bootstrap and it is fully responsive.
 
 ## Run it locally 🖥
 ```bash
