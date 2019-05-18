@@ -17,7 +17,7 @@ It is a SPA(Single Page Application) app made with React.
 ```bash
 $ git clone https://github.com/vanyadelova/movie-library-application.git
 $ npm install # to install node packages.
-$ npm run dev # to run the app in development mode
+$ npm start # to run the app.
 ```
 Then open `localhost:3000` on browser to see the app.
 
