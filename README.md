@@ -11,9 +11,7 @@ This is my own attempt at the Global Gaming's Frontend challenge. I was expected
 - **Navigate to a specific movie as to preview further details**
 - **Should be interactive to numerous resolutions**
 
-It is a SPA(Single Page Application) app to browse movies written in React-Redux.
-The data is grabbed from the Movie DB - https://www.themoviedb.org/documentation/api.
-
+It is a SPA(Single Page Application) app made with React.
 
 ## Run it locally 🖥
 ```bash
