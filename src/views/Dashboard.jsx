@@ -1,7 +1,10 @@
 import React, { Component } from "react";
 import ChartistGraph from "react-chartist";
-import { Grid, Row, Col } from "react-bootstrap";
-
+import { Grid, Row, Col, FormGroup, ControlLabel, FormControl } from "react-bootstrap";
+import { FormInputs } from "components/FormInputs/FormInputs.jsx";
+import { UserCard } from "components/UserCard/UserCard.jsx";
+import avatar from "assets/img/faces/face-3.jpg";
+import Button from "components/CustomButton/CustomButton.jsx";
 import { Card } from "components/Card/Card.jsx";
 import { StatsCard } from "components/StatsCard/StatsCard.jsx";
 import { Tasks } from "components/Tasks/Tasks.jsx";
@@ -95,7 +98,7 @@ class Dashboard extends Component {
               />
             </Col>
             <Col md={4}>
-              <Card
+             {/* <Card
                 statsIcon="fa fa-clock-o"
                 title="Email Statistics"
                 category="Last Campaign Performance"
@@ -110,6 +113,39 @@ class Dashboard extends Component {
                 }
                 legend={
                   <div className="legend">{this.createLegend(legendPie)}</div>
+                }
+              />*/}
+               <UserCard
+                bgImage="https://ununsplash.imgix.net/photo-1431578500526-4d9613015464?fit=crop&fm=jpg&h=300&q=75&w=400"
+                avatar={avatar}
+              
+                name="BLOG"
+                userName="Jacob Cobijn
+                12/04/2016"
+                description={
+                  <span>
+                    Samenleving
+
+                  <br />
+                    Het hebben van een partner
+                    <br />
+                    die positief in het  leven staat,
+                    <br />
+                    is mogelijk goed voor de....
+                  </span>
+                }
+                socials={
+                  <div>
+                    <Button simple>
+                      <i className="fa fa-facebook-square" />
+                    </Button>
+                    <Button simple>
+                      <i className="fa fa-twitter" />
+                    </Button>
+                    <Button simple>
+                      <i className="fa fa-google-plus-square" />
+                    </Button>
+                  </div>
                 }
               />
             </Col>
