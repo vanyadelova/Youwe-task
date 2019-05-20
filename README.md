@@ -4,12 +4,12 @@
 # 💼 CuraNu-APP 💼 
 ## [ 🔮 ✨ Check out the deployed version here! ✨ 🔮](https://gallant-brattain-9ebaeb.netlify.com/)
 ## What this project is about
-This is my own attempt at the Global Gaming's Frontend challenge. I was expected to develop a well-structured movie library application (such as Netflix and Amazon) using any design I want. The app should at minimum support the following primary functions:
-- **List a number of movies**
-- **Search for a movie by title**
-- **Filter movies by different genres**
-- **Navigate to a specific movie as to preview further details**
-- **Should be interactive to numerous resolutions**
+This is my own attempt at the Youwe's Frontend challenge. I was expected to develop a well-structured social intranet page using the supplied designs. The app should at minimum support the following primary functions:
+- **The contact form must be validated, the form may not be sent before all fields have been filled in correctly.**
+- **Clicking on the head of a closed block causes the block to open and the text below will become visible.**
+- **Animation**
+- **Folding the block open must animate.**
+- **Build something that we have not thought of or that you think is a valuable addition.**
 
 It is a SPA(Single Page Application) app made with [React](https://reactjs.org/). It is built on top of [React Bootstrap](https://react-bootstrap.github.io/) and it is fully responsive.
 
@@ -25,10 +25,13 @@ Then open `localhost:3000` on browser to see the app.
 ## Technologies used
 
 - React
-- Redux
-- Webpack
 - React router dom
-- redux-thunk
+- react-bootstrap
+
+### Challenges Faced
+
+* Maps do not work properly due to lack of an API KEY.
+
 
 
 
