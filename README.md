@@ -30,7 +30,7 @@ Then open `localhost:3000` on browser to see the app.
 
 ### Challenges Faced
 
-* Maps do not work properly due to lack of an APY KEY.
+* Maps do not work properly due to lack of an API KEY.
 
 
 
