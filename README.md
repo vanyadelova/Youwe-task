@@ -28,6 +28,10 @@ Then open `localhost:3000` on browser to see the app.
 - React router dom
 - react-bootstrap
 
+### Challenges Faced
+
+* Maps do not work properly due to lack of an APY KEY.
+
 
 
 
