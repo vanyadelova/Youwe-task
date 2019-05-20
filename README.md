@@ -2,7 +2,7 @@
                      
 
 # 💼 CuraNu-APP 💼 
-## [ 🔮 ✨ Check out the deployed version here! ✨ 🔮](https://gallant-brattain-9ebaeb.netlify.com/)
+## [ 🔮 ✨ Check out the deployed version here! ✨ 🔮]()
 ## What this project is about
 This is my own attempt at the Youwe's Frontend challenge. I was expected to develop a well-structured social intranet page using the supplied designs. The app should at minimum support the following primary functions:
 - **The contact form must be validated, the form may not be sent before all fields have been filled in correctly.**
