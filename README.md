@@ -7,7 +7,7 @@
 This is my own attempt at the Youwe's Frontend challenge. I was expected to develop a well-structured social intranet page using the supplied designs. The app should at minimum support the following primary functions:
 - **The contact form must be validated, the form may not be sent before all fields have been filled in correctly.**
 - **Clicking on the head of a closed block causes the block to open and the text below will become visible.**
-- **Animation**
+- **Animation & Dropdown**
 - **Folding the block open must animate.**
 - **Build something that we have not thought of or that you think is a valuable addition.**
 
