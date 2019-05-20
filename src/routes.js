@@ -1,6 +1,7 @@
 import Dashboard from "views/Dashboard.jsx";
 import UserProfile from "views/UserProfile.jsx";
 import TableList from "views/TableList.jsx";
+import Registration from "views/Registration";
 
 
 import Maps from "views/Maps.jsx";
@@ -13,6 +14,13 @@ const dashboardRoutes = [
     name: "Dashboard",
     icon: "pe-7s-graph",
     component: Dashboard,
+    layout: "/admin"
+  },
+  {
+    path: "/registration",
+    name: "Registration",
+    icon: "pe-7s-news-paper",
+    component: Registration,
     layout: "/admin"
   },
   {
