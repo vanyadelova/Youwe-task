@@ -25,10 +25,9 @@ Then open `localhost:3000` on browser to see the app.
 ## Technologies used
 
 - React
-- Redux
-- Webpack
 - React router dom
-- redux-thunk
+- react-bootstrap
+
 
 
 
