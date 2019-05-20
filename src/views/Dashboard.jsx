@@ -98,23 +98,7 @@ class Dashboard extends Component {
               />
             </Col>
             <Col md={4}>
-             {/* <Card
-                statsIcon="fa fa-clock-o"
-                title="Email Statistics"
-                category="Last Campaign Performance"
-                stats="Campaign sent 2 days ago"
-                content={
-                  <div
-                    id="chartPreferences"
-                    className="ct-chart ct-perfect-fourth"
-                  >
-                    <ChartistGraph data={dataPie} type="Pie" />
-                  </div>
-                }
-                legend={
-                  <div className="legend">{this.createLegend(legendPie)}</div>
-                }
-              />*/}
+             
                <UserCard
                 bgImage="https://ununsplash.imgix.net/photo-1431578500526-4d9613015464?fit=crop&fm=jpg&h=300&q=75&w=400"
                 avatar={avatar}
@@ -178,7 +162,7 @@ class Dashboard extends Component {
             <Col md={6}>
               <Card
                 title="EVENEMENTEN"
-                category="Backend development"
+                category="CuraNu"
                 stats="Updated 3 minutes ago"
                 statsIcon="fa fa-history"
                 content={
